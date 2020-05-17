@@ -31,7 +31,7 @@ class scalarpow(object):
     sigma_8 : r.m.s. mass fluctuation on 8h^-1 Mpc scale
     """
 
-    def __init__(self, Ophi_i, li, n, Orad_i, h=0.7, Ob0=0.045, ns=0.96, sigma_8=0.8):
+    def __init__(self, Ophi_i, li, n, Orad_i = 0.15, h=0.7, Ob0=0.045, ns=0.96, sigma_8=0.8):
         self.Ophi_i = float(Ophi_i)
         self.li = float(li)
         self.n = float(n)
